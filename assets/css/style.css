@@ -1,0 +1,128 @@
+/* * {
+    
+
+} */
+#Sidebar{
+    position: absolute;
+    width: 150px;
+    height: 935px;
+    /* top: 938px; */
+    background: black;
+}
+#Sidebar ul{
+    background: #191718;
+    width: 150px;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+#Sidebar li{
+    width: auto;
+    height: 44px;
+    line-height: 40px;
+    border-bottom: 0.2px solid #b3b1b1;
+    padding: 0 1em;
+}
+#Sidebar li a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: rgb(235, 230, 230);
+    font-weight: bold;
+    display: block;
+  }
+#Sidebar li:hover {
+    background: #9a9a9a;
+}
+#Header{
+    position: absolute;
+    width: 1768px;
+    height: 935px;
+    left: 150px;
+
+    background: #FFFFFF;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 310px;
+    height: 122px;  
+    top: 20px;
+
+}
+#Text_1{
+    position: absolute;
+    width: 1218px;
+    height: 210px;
+    left: 279px;
+    top: 150px;
+    padding-top: 15px;
+    background: #EFEFEF;
+    ;
+}
+.h3-text {
+    text-align: center;
+}
+.about-text{
+    position: absolute;
+    width: 972px;
+    height: 85px;
+    left: 135px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+}
+.list{
+    position: absolute;
+    width: 470px;
+    height: 28px;
+    left: 425px;
+    top: 420px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+.member-img{
+    width: 128px;
+    height: 128px;
+}
+#Content .list{
+    float: left;
+    width: 30%;
+}
+.about-text-1{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+.about-text-2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+
+#Footer{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+}
